@@ -182,13 +182,23 @@ analytics:
     host:
     id:
 
+comment:
+  type: giscus
+  script:
+     <script src="https://giscus.app/client.js"
+        data-repo="ZWshine/giscus"
+        data-repo-id="R_kgDOKIliKw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKIliK84CYsEh"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
-#6、Valine https://valine.js.org
-valine: 
- appid: mxd0TH5zPf2B44HqUBUGsOB0-gzGzoHsz
- appkey: IWy5OQBZiEhwsXzB3iVvHToZ
- verify: false #验证码
- notify: false #评论回复提醒
- avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
- placeholder: Just go go #评论框占位符
