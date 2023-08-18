@@ -183,22 +183,17 @@ analytics:
     id:
 
 
-
 giscus:
   enable: true
-  repo: Wshine/giscus # Github repository name
-  repo_id: R_kgDOKIliKw # Github repository id
-  category: Announcements # Github discussion category
-  category_id: IC_kwDOKIliK84CYsEh # Github discussion category id
-  # Available values: pathname | url | title | og:title
-  mapping: url
-  # Available values: 0 | 1 
-  reactions_enabled: 1
-   # Available values: 0 | 1 
-  emit_metadata: 1
-  # Available values: light | dark | dark_high_contrast | transparent_dark | preferred-color-scheme
-  theme: light
-  # Available values: en | zh-C
-  lang: en
-  # Available value: anonymous
-  crossorigin: anonymous
+        repo: ZWshine/giscus
+        repo-id: R_kgDOKIliKw
+        category: Announcements
+        category-id: DIC_kwDOKIliK84CYsEh
+        mapping: url
+        strict: 0
+        reactions-enabled: 1
+        emit-metadata: 0
+        input-position: bottom
+        theme: light
+        lang: zh-CN
+        crossorigin: anonymous
