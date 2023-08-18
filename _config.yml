@@ -121,7 +121,9 @@ donate:
   img: img/donate.jpg
   content: 感谢鼓励
 
-
+#首行缩进
+post_style:
+    indent: 0
   
 
 # 搜索
