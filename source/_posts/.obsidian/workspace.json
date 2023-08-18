@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "c97e7e4219f6ef64",
+    "type": "split",
+    "children": [
+      {
+        "id": "21a53e6421b75327",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eebb5f5f083e47e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "流量卡.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c6da9f9357b4837d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8edd816af00ecf1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d81020808292e20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c7d12633be8fed3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6345bec3fa1fc46a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f58ad58242690d6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "da28b87f419d06b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bc1a30236ee97ac",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "流量卡.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d5f04b2b7311a37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "流量卡.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e0b755c87e0b613",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1997db17e4f30162",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "流量卡.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "eebb5f5f083e47e7",
+  "lastOpenFiles": [
+    "hello-world.md",
+    "Hexo博客新建文章并发布.md"
+  ]
+}
