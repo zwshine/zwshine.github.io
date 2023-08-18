@@ -191,3 +191,12 @@ valine：
     planceholde: #评论内容
     guest_info: nick,mail,link
     pageSize: 10
+
+#6、Valine https://valine.js.org
+valine: 
+ appid: mxd0TH5zPf2B44HqUBUGsOB0-gzGzoHsz
+ appkey: IWy5OQBZiEhwsXzB3iVvHToZ
+ verify: false #验证码
+ notify: false #评论回复提醒
+ avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+ placeholder: Just go go #评论框占位符

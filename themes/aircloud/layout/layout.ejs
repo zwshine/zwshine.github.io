@@ -100,6 +100,18 @@
            d.appendChild(j);
        })();
     </script>
+
+
+<% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
+   <section id="comments" style="margin:10px;padding:10px;background:#fff;">
+     <%- partial('post/valine', {
+       key: post.slug,
+       title: post.title,
+       url: config.url+url_for(post.path)
+       }) %>
+   </section>
+ <% } %>
+
     <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
     </div>
 <% } %>
