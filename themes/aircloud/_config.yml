@@ -1,11 +1,1 @@
 __: aircloud
-
-valine：
-    enable: true
-    appid: mxd0TH5zPf2B44HqUBUGsOB0-gzGzoHsz
-    appkey: IWy5OQBZiEhwsXzB3iVvHToZ
-    notifiy: false # mail notifier,https://github.com/xCss/Valine/wiki 是否开启邮箱提醒
-    verfify: false # Verifaication code开启验证码
-    planceholde: #评论内容
-    guest_info: nick,mail,link
-    pageSize: 10
