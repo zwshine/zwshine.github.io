@@ -185,7 +185,8 @@ analytics:
 
 
 
-
+comment:
+  type: giscus
   script: |
       <script src="https://giscus.app/client.js"
         data-repo="ZWshine/giscus"
