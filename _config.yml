@@ -182,10 +182,8 @@ analytics:
     host:
     id:
 
-comment:
-  type: giscus
-  script:
-     <script src="https://giscus.app/client.js"
+
+<script src="https://giscus.app/client.js"
         data-repo="ZWshine/giscus"
         data-repo-id="R_kgDOKIliKw"
         data-category="Announcements"
