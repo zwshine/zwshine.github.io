@@ -112,14 +112,22 @@ deploy:
 # 博客头像100*100
 sidebar-avatar: img/avatar.jpg
 
+# 头像圆角
+avatar_style:
+  radius: true
+
+
+
+
+
 # 网站标题
 SEOTitle: ZWshine
 
 
 
-donate:
-  img: img/donate.jpg
-  content: 感谢鼓励
+#donate:
+# img: img/donate.jpg
+#  content: 感谢鼓励
 
 #首行缩进
 post_style:
@@ -182,18 +190,22 @@ analytics:
     host:
     id:
 
+comment:
+  type: giscus
+  script:
+    <script src="https://giscus.app/client.js"
+        data-repo="ZWshine/giscus"
+        data-repo-id="R_kgDOKIliKw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKIliK84CYsEh"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+    </script>
 
-giscus:
-  enable: true
-        repo: ZWshine/giscus
-        repo-id: R_kgDOKIliKw
-        category: Announcements
-        category-id: DIC_kwDOKIliK84CYsEh
-        mapping: url
-        strict: 0
-        reactions-enabled: 1
-        emit-metadata: 0
-        input-position: bottom
-        theme: light
-        lang: zh-CN
-        crossorigin: anonymous
