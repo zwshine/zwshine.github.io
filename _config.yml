@@ -143,20 +143,20 @@ search:
 
 # SNS settings
 # 一些社交平台地址，支持以下几种：
-weibo_username:     3286578617
-zhihu_username:     ai-er-lan-xue-da
-github_username:    AirCloud
-twitter_username:   iconie_alloy
-facebook_username:  xiaotao.nie.5
-linkedin_username:  小涛-聂-80964aba
+weibo_username:     5815900403
+zhihu_username:     waaa-49-32
+github_username:    ZWshine
+twitter_username:   #
+facebook_username:  #
+linkedin_username:  #
 
 
 # Friends
 # 友情链接
 friends: [
     {
-        title: "10000H",
-        href: "https://www.10000h.top"
+        title: "baidu",
+        href: "https://www.baidu.com"
     },{
         title: "Xiaotao's Page",
         href: "https://niexiaotao.com"
