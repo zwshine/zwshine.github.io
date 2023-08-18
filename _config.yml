@@ -113,8 +113,8 @@ deploy:
 sidebar-avatar: img/avatar.jpg
 
 # 头像圆角
-avatar_style:
-  radius: true
+#avatar_style:
+#  radius: true
 
 
 
