@@ -195,8 +195,8 @@ comment:
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="light"
-        data-lang="zh-CN"
+        data-theme="aircloud"
+        data-lang="zh"
         crossorigin="anonymous"
         async>
 </script>
