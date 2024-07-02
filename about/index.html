@@ -51,7 +51,24 @@
 
   
 
+    
+    <script>
+        // 假设你有三个可能的域名
+        const domains = ['https://hshwukong.cn', 'https://hshwk.xyz', 'https://shenlan.shop', 'https://sswifi.top'];
+        const currentDomain = window.location.origin;
+        
+        // 找到与当前域名匹配的索引
+        const domainIndex = domains.indexOf(currentDomain);
+        
+        if (domainIndex !== -1) {
+            // 遍历所有文章链接，根据当前域名替换href
+            document.querySelectorAll('.post-link').forEach(link => {
+                link.href = link.href.replace(/https?:\/\/[^/]+/, domains[domainIndex]);
+            });
+        }
+    </script>
 <meta name="generator" content="Hexo 7.2.0"></head>
+
 
 <body>
 

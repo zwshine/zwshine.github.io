@@ -51,7 +51,24 @@
 
   
 
+    
+    <script>
+        // 假设你有三个可能的域名
+        const domains = ['https://hshwukong.cn', 'https://hshwk.xyz', 'https://shenlan.shop', 'https://sswifi.top'];
+        const currentDomain = window.location.origin;
+        
+        // 找到与当前域名匹配的索引
+        const domainIndex = domains.indexOf(currentDomain);
+        
+        if (domainIndex !== -1) {
+            // 遍历所有文章链接，根据当前域名替换href
+            document.querySelectorAll('.post-link').forEach(link => {
+                link.href = link.href.replace(/https?:\/\/[^/]+/, domains[domainIndex]);
+            });
+        }
+    </script>
 <meta name="generator" content="Hexo 7.2.0"></head>
+
 
 <body>
 
@@ -151,17 +168,11 @@
 
 <div id='tag_cloud' class="tags">
     
-    <a href="#兼职" class="tag-triangle" title="兼职"><i class="tag-i">兼职</i></a>
+    <a href="#流量卡" class="tag-triangle" title="流量卡"><i class="tag-i">流量卡</i></a>
     
     <a href="#随身wifi" class="tag-triangle" title="随身wifi"><i class="tag-i">随身wifi</i></a>
     
-    <a href="#闲聊零碎" class="tag-triangle" title="闲聊零碎"><i class="tag-i">闲聊零碎</i></a>
-    
-    <a href="#闲鱼" class="tag-triangle" title="闲鱼"><i class="tag-i">闲鱼</i></a>
-    
-    <a href="#About" class="tag-triangle" title="About"><i class="tag-i">About</i></a>
-    
-    <a href="#blog" class="tag-triangle" title="blog"><i class="tag-i">blog</i></a>
+    <a href="#hexo" class="tag-triangle" title="hexo"><i class="tag-i">hexo</i></a>
     
 </div>
 
@@ -169,8 +180,8 @@
 
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="兼职">
-                    <span class="tag-text">兼职</span>
+                <span class="fa fa-tag listing-seperator" id="流量卡">
+                    <span class="tag-text">流量卡</span>
                 </span>
     
     <!-- <li class="listing-item">
@@ -178,7 +189,7 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2060/04/21/流量卡办理/">
+        <a href="/2024/07/02/流量卡办理/">
             <h2 class="post-title">
                 流量卡办理
             </h2>
@@ -192,7 +203,7 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2060/04/21/流量卡推广(返佣金)/">
+        <a href="/2024/07/01/流量卡推广(返佣金)/">
             <h2 class="post-title">
                 流量卡推广(返佣金)
             </h2>
@@ -213,7 +224,7 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2060/04/21/热风枪及配件，影腾5g/">
+        <a href="/2024/07/01/热风枪及配件，影腾5g/">
             <h2 class="post-title">
                 热风枪及配件，影腾5g
             </h2>
@@ -225,8 +236,8 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="闲聊零碎">
-                    <span class="tag-text">闲聊零碎</span>
+                <span class="fa fa-tag listing-seperator" id="hexo">
+                    <span class="tag-text">hexo</span>
                 </span>
     
     <!-- <li class="listing-item">
@@ -234,7 +245,49 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2060/04/21/闲聊零碎/">
+        <a href="/2024/07/02/hello-world/">
+            <h2 class="post-title">
+                hello-world
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2024/07/01/0元搭建个人网站，博客/">
+            <h2 class="post-title">
+                0元搭建个人网站，博客
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2024/07/02/闲鱼/">
+            <h2 class="post-title">
+                hexo的url,多域名问题
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2024/07/02/闲聊零碎/">
             <h2 class="post-title">
                 闲聊零碎
             </h2>
@@ -243,63 +296,14 @@
         <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
     </div>
     
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="闲鱼">
-                    <span class="tag-text">闲鱼</span>
-                </span>
-    
     <!-- <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2060/04/21/闲鱼/">
+        <a href="/2024/07/02/hexo的url，多域名问题/">
             <h2 class="post-title">
-                闲鱼
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="About">
-                    <span class="tag-text">About</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2026/04/21/hello-world/">
-            <h2 class="post-title">
-                Hello World
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="blog">
-                    <span class="tag-text">blog</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2060/04/21/0元搭建个人网站，博客/">
-            <h2 class="post-title">
-                0元搭建个人网站，博客
+                hexo的url,多域名问题
             </h2>
             
         </a>
